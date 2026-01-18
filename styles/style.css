@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1270px;
+  margin: 30px auto;
+  background-color: #1a0b2e;
+  color: white;
+  margin-top: 50px;
+}
+/* navabr style */
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-link {
+  display: flex;
+  gap: 20px;
+}
+.btn:hover {
+  background-color: blueviolet;
+  transition: 1s;
+  
+}
+.btn {
+  background-color: rgb(237, 64, 185);
+
+  padding: 7px 13px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+.btn-another {
+ border: 2px solid green;
+  padding: 7px 13px;
+  border-radius: 10px;
+  background-color: #221f27;
+  color: #00FF88;
+  
+}
+.span-color {
+  color: rgb(237, 64, 185);
+}
+.hamburger-menu{
+    display: none;
+    color: grey;
+  
+
+}
+
+.hr {
+  border: none; 
+  border-top: 1px solid grey; 
+  height: 1px; 
+  margin-top: 20px;
+}
+
+/* banner-container */
+.banner-container{
+    background-image: url(../assets/hero-bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+   
+.content{
+  
+   text-align: center;
+  
+   
+}
+.big-title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 1100;
+}
+.para{
+    margin-bottom: 10px;
+}
+.mic-img{
+   margin-top: 80px;
+}
+.badge{
+    background-color: #00FF88;
+    border: none;
+    padding: 3px 4px;
+    border-radius: 7px;
+    position: absolute;
+    margin-top: 15px;
+    font-size: small;
+}
+.img-back{
+    background-image: url(../assets/hero-circle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: center;
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+
+    
+}
+
+/* Responsive */
+/* navbar */
+@media (max-width: 576px) {
+ 
+  .hamburger-menu{
+    display: block;
+  }
+  .nav-link{
+    display: none;
+  }
+  .btn-small{
+    display: none;
+  }
+.para{
+    width: 400px;
+}
+.img-back{
+    margin-left: 20px;
+}
+}
