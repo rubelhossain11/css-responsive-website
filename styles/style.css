@@ -109,7 +109,22 @@ body {
 
     
 }
-
+/* about section */
+.about-container{
+    text-align: center;
+}
+.para-extra{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.about-item{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.same-title-color{
+    color: #00FF88;
+}
 /* Responsive */
 /* navbar */
 @media (max-width: 576px) {
@@ -128,5 +143,20 @@ body {
 }
 .img-back{
     margin-left: 20px;
+}
+.about-item{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.para{
+    margin: 0px;
+}
+.about-con{
+    margin-left: 25px;
+}
+#extra-para{
+   margin-bottom: 20px;
 }
 }
