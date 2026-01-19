@@ -233,6 +233,37 @@ body {
 .video-img{
     border-radius: 20px;
 }
+/* meet container */
+.meet-container{
+  width: 1000px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #221f27;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+.meet-content{
+  
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: #4b4a4d;
+  padding: 10px 20px;
+  width: 900px;
+  margin: 0 auto;
+}
+.social-meet-container{
+  display: flex;
+  gap: 20px;
+}
+.social-img{
+  border: 1px solid gray;
+  padding: 5px;
+ border-radius: 20px;
+ width: 30px;
+}
 /* Responsive */
 
 @media (max-width: 576px) {
@@ -251,11 +282,32 @@ body {
   .img-back {
     margin-left: 20px;
   }
-  .about-item {
+  .about-item ,.meet-content{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    /* meet container */
   }
+ .meet-content{
+  gap: 10px;
+  padding: 10px 20px;
+  width: 500px;
+  margin: 0 auto;
+}
+.meet-container{
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-top: 10px;
+}
+.social-meet-container{
+  margin-top: 20px;
+}
+#meet-space{
+  margin-bottom: 20px;
+  margin-left: 70px;
+}
   .para {
     margin: 0px;
   }
